@@ -6,3 +6,5 @@ description: merry christmas to everyone
 I´T christmas again!
 
 ![](/img/img_20131018_124006-1-.jpg)
+
+![](/img/_dsc0006.jpg)
