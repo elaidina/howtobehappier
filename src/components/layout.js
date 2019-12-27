@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import CookieConsent from "react-cookie-consent"
 
 class Layout extends React.Component {
   render() {
@@ -67,6 +68,9 @@ class Layout extends React.Component {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
+        <CookieConsent>
+          This website uses cookies to enhance the user experience.
+        </CookieConsent>
       </div>
     )
   }
