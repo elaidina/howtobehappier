@@ -19,14 +19,24 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <article key={node.fields.slug}>
+            <article
+              style={{
+                backgroundColor: "white",
+                color: "black",
+                padding: "0.5rem",
+              }}
+              key={node.fields.slug}
+            >
               <header>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <Link
+                    style={{ boxShadow: `none`, color: "black" }}
+                    to={node.fields.slug}
+                  >
                     {title}
                   </Link>
                 </h3>
@@ -39,6 +49,11 @@ class BlogIndex extends React.Component {
                   }}
                 />
               </section>
+              <hr
+                style={{
+                  height: "0.5rem",
+                }}
+              />
             </article>
           )
         })}

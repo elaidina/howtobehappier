@@ -18,7 +18,13 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article>
+        <article
+          style={{
+            backgroundColor: "white",
+            padding: "2rem",
+            margin: "2rem",
+          }}
+        >
           <header>
             <h1
               style={{

@@ -38,6 +38,9 @@ const Bio = () => {
       style={{
         display: `flex`,
         marginBottom: rhythm(2.5),
+        backgroundColor: "white",
+        borderRadius: "2%",
+        padding: "2rem",
       }}
     >
       <Image
@@ -57,8 +60,13 @@ const Bio = () => {
         Written by <strong>{author}</strong> who lives and works in Europe
         building useful things.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow hem on Twitter
+        <a
+          style={{
+            color: "#b85b5b",
+          }}
+          href={`https://twitter.com/${social.twitter}`}
+        >
+          You should follow her on Twitter
         </a>
       </p>
     </div>

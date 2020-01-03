@@ -23,7 +23,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `#b85b5b`,
             }}
             to={`/`}
           >
@@ -43,7 +43,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `#b85b5b`,
             }}
             to={`/`}
           >
@@ -57,16 +57,34 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          maxWidth: rhythm(35),
+          padding: `${rhythm(2)} ${rhythm(3 / 4)}`,
+          // background: "rgb(131,58,180)";
+          backgroundColor: "#dbdbdb",
         }}
       >
         <header>{header}</header>
+        <hr
+          style={{
+            height: "1rem",
+          }}
+        />
         <main>{children}</main>
-        <footer>
+        <footer
+          style={{
+            color: "#b85b5b",
+          }}
+        >
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a
+            style={{
+              color: "#b85b5b",
+            }}
+            href="https://www.gatsbyjs.org"
+          >
+            Gatsby
+          </a>
         </footer>
         <CookieConsent>
           This website uses cookies to enhance the user experience.
