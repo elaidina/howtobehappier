@@ -38,9 +38,12 @@ const Bio = () => {
       style={{
         display: `flex`,
         marginBottom: rhythm(2.5),
-        backgroundColor: "white",
+        // backgroundColor: "#ffcece",
         borderRadius: "2%",
         padding: "2rem",
+        background: "rgb(255,183,0)",
+        background:
+          "linear-gradient(90deg, rgba(255,183,0,1) 0%, rgba(255,206,206,0.950315160243785) 53%, rgba(38,212,192,1) 100%)",
       }}
     >
       <Image
@@ -57,8 +60,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Europe
-        building useful things.
+        Written by <strong>{author}</strong> who loves learning new things every
+        day.
         {` `}
         <a
           style={{
@@ -66,7 +69,7 @@ const Bio = () => {
           }}
           href={`https://twitter.com/${social.twitter}`}
         >
-          You should follow her on Twitter
+          Follow me on Twitter.
         </a>
       </p>
     </div>

@@ -23,7 +23,7 @@ class BlogIndex extends React.Component {
               style={{
                 backgroundColor: "white",
                 color: "black",
-                padding: "0.5rem",
+                padding: "2rem",
               }}
               key={node.fields.slug}
             >
@@ -52,6 +52,10 @@ class BlogIndex extends React.Component {
               <hr
                 style={{
                   height: "0.5rem",
+                  // backgroundColor: "red",
+                  background: "rgb(255,183,0)",
+                  background:
+                    "linear-gradient(90deg, rgba(255,183,0,1) 0%, rgba(184,91,91,1) 53%, rgba(38,212,192,1) 100%)",
                 }}
               />
             </article>
