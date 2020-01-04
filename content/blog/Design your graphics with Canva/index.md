@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: Be your own graphic designer with Canva
 date: "2020-05-01T22:12:03.284Z"
-description: "Hello World"
+description: "Use the free Canva account to create all the graphics your blog needs."
 ---
 
 This is my first post on my new fake blog! How exciting!

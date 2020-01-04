@@ -24,8 +24,8 @@ class BlogPostTemplate extends React.Component {
         <article
           style={{
             backgroundColor: "white",
-            padding: "2rem",
-            margin: "2rem",
+            padding: "1rem",
+            margin: "1rem",
           }}
         >
           <header>

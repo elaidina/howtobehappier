@@ -89,6 +89,7 @@ class Layout extends React.Component {
             }}
           >
             <span>See also: </span>
+            ❤️
             <a
               style={{
                 color: "red",
@@ -209,6 +210,66 @@ class Layout extends React.Component {
               href={`https://whattolearn.netlify.com/`}
             >
               What to learn
+            </a>
+            ❤️
+            <a
+              style={{
+                color: "red",
+                margin: "1rem",
+                borderRadius: "20%",
+                backgroundColor: "white",
+                padding: "0.5rem",
+                border: "solid 1px red",
+                textDecoration: "none",
+              }}
+              href={`https://englishcheatsheets.netlify.com/`}
+            >
+              Cheatsheets
+            </a>
+            ❤️
+            <a
+              style={{
+                color: "red",
+                margin: "1rem",
+                borderRadius: "20%",
+                backgroundColor: "white",
+                padding: "0.5rem",
+                border: "solid 1px red",
+                textDecoration: "none",
+              }}
+              href={`https://workfromhomejobs.netlify.com/`}
+            >
+              Work from home
+            </a>
+            ❤️
+            <a
+              style={{
+                color: "red",
+                margin: "1rem",
+                borderRadius: "20%",
+                backgroundColor: "white",
+                padding: "0.5rem",
+                border: "solid 1px red",
+                textDecoration: "none",
+              }}
+              href={`https://futurecreativejobs.netlify.com/`}
+            >
+              Future creative jobs
+            </a>
+            ❤️
+            <a
+              style={{
+                color: "red",
+                margin: "1rem",
+                borderRadius: "20%",
+                backgroundColor: "white",
+                padding: "0.5rem",
+                border: "solid 1px red",
+                textDecoration: "none",
+              }}
+              href={`https://newtrends.netlify.com/`}
+            >
+              New trends
             </a>
             ❤️
           </div>
